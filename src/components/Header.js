@@ -192,7 +192,7 @@ const SignOutStyled = styled.div`
 function Header() {
   const [user, dispatch] = useContext(UserContext)
   const userName = user.name
-  // const userEmail = user.email
+  const userEmail = user.email
   const userPhotoURL = user.photoURL
   const navigate = useNavigate()
 
@@ -234,6 +234,7 @@ function Header() {
     //   }
     // })
     if(userName) {
+      alert(`Login success: ${userEmail}`)
       navigate('home')
     }
   }, [userName])

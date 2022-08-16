@@ -6,7 +6,7 @@ import firebase from "firebase";
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyDHHJ3rvknUlkTL0zNqh0Ikp_zc63-O8BU",
-  authDomain: "app-disney-demo.vercel.app",
+  authDomain: "app-disney-clone.firebaseapp.com",
   projectId: "app-disney-clone",
   storageBucket: "app-disney-clone.appspot.com",
   messagingSenderId: "7763754819",
