@@ -26,7 +26,6 @@ export const setUserSignOut = (payload) => {
 }
 
 const UserReducer = (state, action) => {
-  // const { name, email, photoURL } = state
   switch(action.type) {
     case SET_USER_LOGIN:
       console.log(action.payload);

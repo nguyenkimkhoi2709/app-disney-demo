@@ -21,7 +21,6 @@ export const setMovie = (payload) => {
 const MovieReducer = (state, action) => {
   switch(action.type) {
     case SET_MOVIE:
-      // console.log(action.payload);
       return {
         ...state,
         recommends: action.payload.recommends,

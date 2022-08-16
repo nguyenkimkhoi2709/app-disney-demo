@@ -7,7 +7,6 @@ import firebase from "firebase";
 const firebaseConfig = {
   apiKey: "AIzaSyDHHJ3rvknUlkTL0zNqh0Ikp_zc63-O8BU",
   authDomain: "app-disney-clone.firebaseapp.com",
-  databaseURL: "https://app-disney-demo.vercel.app/",
   projectId: "app-disney-clone",
   storageBucket: "app-disney-clone.appspot.com",
   messagingSenderId: "7763754819",

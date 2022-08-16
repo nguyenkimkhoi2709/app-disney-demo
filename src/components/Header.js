@@ -236,7 +236,7 @@ function Header() {
     if(userName) {
       navigate('home')
     }
-  }, [userName, navigate])
+  }, [userName])
 
   return (
     <NavStyled>
@@ -256,23 +256,23 @@ function Header() {
                     <img src={homeIcon}  alt="notfound"/>
                     <span>HOME</span>
                   </MenuStyles>
-                  <MenuStyles to="/search">
+                  <MenuStyles to="/home">
                     <img src={searchIcon}  alt="notfound"/>
                     <span>SEARCH</span>
                   </MenuStyles>
-                  <MenuStyles to="/watchlist">
+                  <MenuStyles to="/home">
                     <img src={watchlistIcon}  alt="notfound"/>
                     <span>WATCHLIST</span>
                   </MenuStyles>
-                  <MenuStyles to="/originals">
+                  <MenuStyles to="/home">
                     <img src={originalsIcon}  alt="notfound"/>
                     <span>ORIGINALS</span>
                   </MenuStyles>
-                  <MenuStyles to="/movies">
+                  <MenuStyles to="/home">
                     <img src={moviesIcon}  alt="notfound"/>
                     <span>MOVIES</span>
                   </MenuStyles>
-                  <MenuStyles to="/series">
+                  <MenuStyles to="/home">
                     <img src={seriesIcon}  alt="notfound"/>
                     <span>SERIES</span>
                   </MenuStyles>
